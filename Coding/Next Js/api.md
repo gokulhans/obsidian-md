@@ -14,3 +14,17 @@ export function GET() {
 }
 ```
 
+## Dynamic API Routing
+
+create folder like this [id]
+users/1 result is params.id is 1 
+
+```js
+import { NextResponse } from "next/server";
+
+export function GET(_, response) {
+  const { id } = response.params;
+  return NextResponse.json({ id });
+}
+```
+
