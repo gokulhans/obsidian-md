@@ -3,6 +3,17 @@
 |---|-------------------------|------------------|------------------|
 | 1 | MERN Stack   |                  |                  | 
 
-### Notes:
+### January
 
-- This is My short term goal
+- Mongoose
+- Express Js
+- React Js
+- Node Js
+- Postgress SQL
+- My Sql
+- Type Script
+- CSS
+- Tailwind CSS
+- Javascript
+- AWS
+- GIT
