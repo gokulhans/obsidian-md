@@ -1,15 +1,15 @@
 
 | # | To-Do | Date | Completed |
 | ---- | ---- | ---- | ---- |
-| 1 | MERN Stack |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
-| 6 |  |  |  |
-| 7 |  |  |  |
-| 8 |  |  |  |
-| 9 |  |  |  |
+| 1 | Mongoose |  |  |
+| 2 | Express Js |  |  |
+| 3 | React Js |  |  |
+| 4 | Node Js |  |  |
+| 5 | Postgress |  |  |
+| 6 | My SQL |  |  |
+| 7 | Typescript |  |  |
+| 8 | CSS |  |  |
+| 9 | Tail |  |  |
 | 10 |  |  |  |
 | 11 |  |  |  |
 | 12 |  |  |  |
@@ -41,4 +41,5 @@ learn all this in january.
 do one project each stack with fully format and architecture in january.
 apply to all companies.
 learn english,interview preperation, communication, technical knowledge.
+
 
