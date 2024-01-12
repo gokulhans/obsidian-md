@@ -11,8 +11,12 @@
             "id": "7c89b8bf48f068bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Goals/Short Term.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Goals/Short Term.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Goals/Short Term.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Goals/Short Term.md"
+              }
             }
           }
         ]
@@ -140,6 +148,7 @@
   },
   "active": "7c89b8bf48f068bc",
   "lastOpenFiles": [
+    "Goals/Long Term.md",
     "README.md",
     "2024-01-06.md",
     "Untitled.canvas",

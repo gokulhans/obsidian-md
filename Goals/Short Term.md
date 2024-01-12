@@ -9,13 +9,14 @@
 | 6 | My SQL |  |  |
 | 7 | Typescript |  |  |
 | 8 | CSS |  |  |
-| 9 | Tail |  |  |
-| 10 |  |  |  |
-| 11 |  |  |  |
-| 12 |  |  |  |
-| 13 |  |  |  |
-| 14 |  |  |  |
-| 15 |  |  |  |
+| 9 | Tailwind CSS |  |  |
+| 10 | Javascript |  |  |
+| 11 | AWS |  |  |
+| 12 | GIT |  |  |
+| 13 | Docker |  |  |
+| 14 | Networking |  |  |
+| 15 |  Next Js |  |  |
+| 16 | React Native |  |  |
 
 ### January
 
