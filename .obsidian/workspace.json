@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "6aed2e997926ff2e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2e3439795308cb3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Goals/Short Term.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
