@@ -89,4 +89,231 @@ app.use("/api/user", userRouter)
 app.listen(process.env.PORT || 5000, () => console.log("Server is running on port 5000"))
 ```
 
+#### Create folders
 
+```
+routes
+controllers
+models
+config
+middlewares
+```
+
+#### Create routes/userRoutes.js
+
+```js
+const express = require("express");
+const router = express.Router();
+const userController = require('../controllers/userController');
+
+// GET all users
+router.get("/", userController.getAll);
+
+// GET user by ID
+router.get("/:id", userController.getById);
+
+// POST a new user
+router.post("/", userController.create);
+
+// UPDATE user by ID
+router.put("/:id", userController.updateById);
+
+// DELETE user by ID
+router.delete("/:id", userController.deleteById);
+
+module.exports = router;
+```
+
+#### Create controllers/userControllers.js
+
+```js
+const User = require('../models/user');
+
+const userController = {
+    create: async (req, res) => {
+        try {
+            const { name, email, password } = req.body;
+            const newUser = new User({ name, email, password });
+            await newUser.save();
+            res.json({ msg: 'User created', data: newUser });
+        } catch (error) {
+            res.status(500).json({ msg: 'Error creating user', error: error.message });
+        }
+    },
+    getAll: async (req, res) => {
+        try {
+            const users = await User.find();
+            res.json({ msg: 'OK', data: users });
+        } catch (error) {
+            res.status(500).json({ msg: 'Error fetching users', error: error.message });
+        }
+    },
+    getById: async (req, res) => {
+        try {
+            const userId = req.params.id;
+            const user = await User.findById(userId);
+            if (user) {
+                res.json({ msg: 'User found', data: user });
+            } else {
+                res.status(404).json({ msg: 'User not found' });
+            }
+        } catch (error) {
+            res.status(500).json({ msg: 'Error fetching user', error: error.message });
+        }
+    },
+    updateById: async (req, res) => {
+        try {
+            const { name, email, password } = req.body;
+            const updatedUser = await User.findOneAndUpdate({ _id: req.params.id }, { name, email, password }, { new: true });
+            if (updatedUser) {
+                res.json({ msg: 'User updated', data: updatedUser });
+            } else {
+                res.status(404).json({ msg: 'User not found' });
+            }
+        } catch (error) {
+            res.status(500).json({ msg: 'Error updating user', error: error.message });
+        }
+    },
+    deleteById: async (req, res) => {
+        try {
+            const deletedUser = await User.findOneAndDelete({ _id: req.params.id });
+            if (deletedUser) {
+                res.json({ msg: 'User deleted', data: deletedUser });
+            } else {
+                res.status(404).json({ msg: 'User not found' });
+            }
+        } catch (error) {
+            res.status(500).json({ msg: 'Error deleting user', error: error.message });
+        }
+    }
+};
+
+module.exports = userController;
+```
+
+#### Create models/user.js
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const userSchema = new Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    email: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    password: {
+        type: String,
+    },
+    photoURL: {
+        type: String,
+    },
+    googleId: {
+        type: String,
+    },
+    isBlocked: {
+        type: Boolean,
+        default: false  // Default value is set to false, indicating the user is not blocked initially
+    }
+},
+    { timestamps: true }
+);
+
+module.exports = mongoose.model('User', userSchema);
+```
+
+#### Create middlewares/verifyToken.js
+
+```js
+const jwt = require('jsonwebtoken');
+const secretKey = process.env.JWT_SECRET_KEY; // Replace with a secure secret key
+
+const verifyToken = (req, res, next) => {
+    const token = req.header('Authorization').replace('Bearer ', '');
+    // if (req.isAuthenticated()) {
+    //     return next();
+    // }
+    try {
+        const decoded = jwt.verify(token, secretKey);
+        // If verification is successful, attach the user data to the request object
+        req.user = decoded;
+        next(); // Proceed to the protected route
+    } catch (error) {
+        res.status(401).json({ error: 'Authentication failed' });
+    }
+};
+
+module.exports = verifyToken;
+```
+
+#### Create config/db.config.js
+
+```js
+require('dotenv').config()
+
+module.exports = {
+    uri: process.env.MONGODB_URI
+};
+```
+
+#### Create .gitignore
+
+```gitignore
+node_modules/
+.env
+```
+
+#### Create db.js
+
+```js
+const mongoose = require("mongoose");
+const mongoconfig = require('./config/db.config');
+
+mongoose.set("strictQuery", false);
+
+const mongouri = mongoconfig.uri;
+
+run().catch((err) => console.log(err));
+
+async function run() {
+    await mongoose.connect(mongouri);
+    console.log('Connected to the database');
+}
+```
+
+#### Create vercel.json
+
+```json
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "app.js",
+            "use": "@vercel/node",
+            "config": {
+                "includeFiles": [
+                    "dist/**"
+                ]
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "app.js"
+        }
+    ]
+}
+```
+
+#### Create .env
+
+```env
+MONGODB_URI=mongodb+srv://test:test@testdb.joiejrf.mongodb.net/?retryWrites=true&w=majority
+JWT_SECRET_KEY=my-jwt-token
+```
