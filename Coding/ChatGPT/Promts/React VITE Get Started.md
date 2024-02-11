@@ -5,7 +5,7 @@ Open folder in VS Code.
 Create folder Frontend.
 Create folder Backend.
 
-Create FEATURES.md.
+#### Create FEATURES.md.
 
 ```
 ## App Features
@@ -16,7 +16,7 @@ Create FEATURES.md.
 Check the boxes once each feature is implemented and tested successfully. Happy coding!
 ```
 
-Create LICENSE.
+#### Create LICENSE.
 
 ```
 MIT License
@@ -42,7 +42,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-Create README.md.
+#### Create README.md.
 
 ```
 # App Name
@@ -60,7 +60,7 @@ More Description.
 More Details to get going.
 ```
 
-Open Frontend Folder
+#### Open Frontend Folder
 
 ```
 npm create vite@latest .
@@ -73,13 +73,28 @@ npm install
 npm run dev
 ```
 
-Create a .env.local file
+#### Create a .env.local file
 
 ```
 VITE_API_BASE_URL=http://localhost:5000/api/
 ```
 
-Create following folders inside src folder.
+#### Create following folders inside src folder.
 
-components
-pages
+components = NavBar/NavBar.jsx
+pages = Home/Home.jsx
+
+#### Install Essential Libraries for development.
+
+```
+npm i react-hot-toast react-query @hookform/resolvers @tanstack/react-query axios react-hook-form react-router-dom yup
+```
+
+#### Install Tailwind CSS and ShadCN
+
+
+Edit App.jsx file
+
+```
+
+```

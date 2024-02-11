@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Application Ideas.md",
+                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideas/Application Ideas.md",
+                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideas/Application Ideas.md",
+                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideas/Application Ideas.md"
+                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "30376c3c58ba8a32",
   "lastOpenFiles": [
-    "Startup/Business App.md",
     "Ideas/Application Ideas.md",
+    "Startup/Business App.md",
     "Coding/ChatGPT/Promts/React VITE Get Started.md",
     "Coding/ChatGPT/Untitled.md",
     "Coding/ChatGPT/Promts",
