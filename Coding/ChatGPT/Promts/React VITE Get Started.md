@@ -90,11 +90,13 @@ pages = Home/Home.jsx
 npm i react-hot-toast react-query @hookform/resolvers @tanstack/react-query axios react-hook-form react-router-dom yup
 ```
 
-#### Install Tailwind CSS and ShadCN
-
-
-Edit App.jsx file
+#### Install Tailwind CSS
 
 ```
-
+npm install -D tailwindcss
+npx tailwindcss init
 ```
+
+#### Configure your template paths
+
+Add the paths to all of your template files in your `tailwind.config.js` file.
