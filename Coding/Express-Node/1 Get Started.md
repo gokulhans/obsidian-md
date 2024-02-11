@@ -4,7 +4,6 @@ Open folder in VS Code.
 
 Create folder Frontend.
 Create folder Backend.
-
 #### Create FEATURES.md.
 
 ```
@@ -61,4 +60,32 @@ More Details to get going.
 ```
 
 #### Open Backend Folder
+
+```
+npm init -y
+```
+
+```
+npm i express bcrypt cors jsonwebtoken dotenv mongoose nodemon
+```
+
+#### Create app.js 
+
+```js
+const express = require("express")
+const app = express()
+const cors = require('cors');
+const db = require('./db');
+require('dotenv').config()
+
+app.use(express.json())
+
+app.use(cors());
+
+const userRouter = require('./routes/userRoutes')
+
+app.use("/api/user", userRouter)
+
+app.listen(process.env.PORT || 5000, () => console.log("Server is running on port 5000"))
+```
 
