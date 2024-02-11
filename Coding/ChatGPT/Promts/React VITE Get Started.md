@@ -90,13 +90,143 @@ pages = Home/Home.jsx
 npm i react-hot-toast react-query @hookform/resolvers @tanstack/react-query axios react-hook-form react-router-dom yup
 ```
 
-#### Install Tailwind CSS
+#### Install ShadCN
+
+#### Add Tailwind and its configuration
+
+Install `tailwindcss` and its peer dependencies, then generate your `tailwind.config.js` and `postcss.config.js` files:
 
 ```
-npm install -D tailwindcss
-npx tailwindcss init
+npm install -D tailwindcss postcss autoprefixer
 ```
 
-#### Configure your template paths
+```
+npx tailwindcss init -p
+```
 
-Add the paths to all of your template files in your `tailwind.config.js` file.
+#### Edit jsconfig.json file
+
+Add the following code to the `jsconfig.json` file to resolve paths:
+
+```json
+{
+  "compilerOptions": {
+    // ...
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+    // ...
+  }
+}
+```
+
+### Update vite.config.js
+
+Add the following code to the vite.config.js so your app can resolve paths without error
+
+```
+npm i -D @types/node
+```
+
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import path from "path"
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+});
+```
+
+### Run the CLI
+
+Run the `shadcn-ui` init command to setup your project:
+
+```
+npx shadcn-ui@latest init
+```
+
+### Configure components.json
+
+You will be asked a few questions to configure `components.json`:
+
+```
+Would you like to use TypeScript (recommended)? no
+Which style would you like to use? › Default
+Which color would you like to use as base color? › Slate
+Where is your global CSS file? › › src/index.css
+Do you want to use CSS variables for colors? › no / yes
+Where is your tailwind.config.js located? › tailwind.config.js
+Configure the import alias for components: › @/components
+Configure the import alias for utils: › @/lib/utils
+Are you using React Server Components? › no
+```
+
+### That's it
+
+You can now start adding components to your project.
+
+```
+npx shadcn-ui@latest add button
+```
+
+The command above will add the `Button` component to your project. You can then import it like this:
+
+```
+import { Button } from "@/components/ui/button"
+
+export default function Home() {
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  )
+}
+```
+
+#### Create util folder
+
+Create axios.js file.
+
+```js
+import axios from "axios";
+
+const baseURL = import.meta.env.VITE_API_BASE_URL;
+
+const axiosClient = axios.create({
+  baseURL: baseURL,
+});
+
+export default axiosClient;
+```
+
+#### Edit main.jsx
+
+```js
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import { BrowserRouter } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "react-query";
+
+const queryClient = new QueryClient();
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </QueryClientProvider>
+  </React.StrictMode>
+);
+```
+
+
