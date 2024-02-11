@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
+                "file": "Ideas/Application Ideas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
+                "file": "Ideas/Application Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
+                "file": "Ideas/Application Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md"
+                "file": "Ideas/Application Ideas.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "30376c3c58ba8a32",
   "lastOpenFiles": [
-    "Coding/ChatGPT/Untitled.md",
+    "Startup/Business App.md",
+    "Ideas/Application Ideas.md",
     "Coding/ChatGPT/Promts/React VITE Get Started.md",
+    "Coding/ChatGPT/Untitled.md",
     "Coding/ChatGPT/Promts",
     "Coding/ChatGPT",
     "Goals/January is Everything.md",
