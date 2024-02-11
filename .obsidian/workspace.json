@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
-                "mode": "source",
+                "file": "Coding/React-VITE/Get Started.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "da809e6626be561f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
+                "file": "Coding/React-VITE/Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md",
+                "file": "Coding/React-VITE/Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/ChatGPT/Promts/React VITE Get Started.md"
+                "file": "Coding/React-VITE/Get Started.md"
               }
             }
           }
@@ -146,11 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30376c3c58ba8a32",
+  "active": "e0040185977a9645",
   "lastOpenFiles": [
+    "Coding/ChatGPT/Promts/React VITE Get Started.md",
+    "Coding/React-VITE/Get Started.md",
+    "Coding/React-VITE",
     "Ideas/Application Ideas.md",
     "Startup/Business App.md",
-    "Coding/ChatGPT/Promts/React VITE Get Started.md",
     "Coding/ChatGPT/Untitled.md",
     "Coding/ChatGPT/Promts",
     "Coding/ChatGPT",
