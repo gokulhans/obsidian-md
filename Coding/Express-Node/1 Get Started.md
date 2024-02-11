@@ -314,6 +314,6 @@ async function run() {
 #### Create .env
 
 ```env
-MONGODB_URI=mongodb+srv://test:test@testdb.joiejrf.mongodb.net/?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://test:testdb.joiejrf.mongodb.net/?retryWrites=true&w=majority
 JWT_SECRET_KEY=my-jwt-token
 ```
