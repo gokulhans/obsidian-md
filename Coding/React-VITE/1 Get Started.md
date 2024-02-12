@@ -278,25 +278,20 @@ export default App;
 #### First API Call
 
 ```js
-// Import necessary dependencies
-import React, { useState, useEffect } from 'react';
 import axiosClient from "@/util/axios";
+import React, { useState, useEffect } from "react";
 
-// Define your component
 function Home() {
-  // State to store the fetched data
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Function to fetch data from the API
   const fetchData = async () => {
     try {
-      // Make a GET request to fetch data
-      const response = await axiosClient.get('/posts'); // Example endpoint from JSONPlaceholder API
+      const response = await axiosClient.get("/");
       setData(response.data);
       setLoading(false);
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error("Error fetching data:", error);
       setLoading(false);
     }
   };
@@ -306,19 +301,10 @@ function Home() {
     fetchData();
   }, []);
 
-  // Render the component
   return (
     <div>
       <h1>API Data</h1>
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <ul>
-          {data.map(item => (
-            <li key={item.id}>{item.title}</li>
-          ))}
-        </ul>
-      )}
+      {loading ? <p>Loading...</p> : <ul>{data.message}</ul>}
     </div>
   );
 }

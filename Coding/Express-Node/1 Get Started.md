@@ -72,21 +72,27 @@ npm i express bcrypt cors jsonwebtoken dotenv mongoose nodemon
 #### Create app.js 
 
 ```js
-const express = require("express")
-const app = express()
-const cors = require('cors');
-const db = require('./db');
-require('dotenv').config()
+const express = require("express");
+const app = express();
+const cors = require("cors");
+const db = require("./db");
+require("dotenv").config();
 
-app.use(express.json())
+app.use(express.json());
 
 app.use(cors());
 
-const userRouter = require('./routes/userRoutes')
+const userRouter = require("./routes/userRoutes");
 
-app.use("/api/user", userRouter)
+app.use("/api/user", userRouter);
 
-app.listen(process.env.PORT || 5000, () => console.log("Server is running on port 5000"))
+app.get("/", (req, res) => {
+  res.json({ message: "Hello World!" });
+});
+
+app.listen(process.env.PORT || 5000, () =>
+  console.log("Server is running on port 5000")
+);
 ```
 
 #### Create folders
@@ -316,5 +322,16 @@ async function run() {
 ```env
 MONGODB_URI=mongodb+srv://test:testdb.joiejrf.mongodb.net/?retryWrites=true&w=majority
 JWT_SECRET_KEY=my-jwt-token
+PORT=5000
 ```
 
+#### Edit Package.json
+
+```json
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+```
