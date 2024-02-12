@@ -1,6 +1,6 @@
 1. Whatsapp Bulk Message Option
 2. Whatsapp Bot / Bot Creation Option
-3. Finance Managment
+3. Finance Managment 
 4. Free Posters and Videos
 5. Website with SEO
 6. Option to give and track Social Media Ads
