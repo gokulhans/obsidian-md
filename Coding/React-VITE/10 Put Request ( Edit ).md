@@ -1,19 +1,27 @@
-Post Form
+Edit App.jsx
 
-```jsx
-import React, { useState } from "react";
+```js
+<Route path="/edit/:id" element={<Edit isUser={isUser} />} />
+```
+
+Create pages/edit/edit.jsx
+
+```js
+import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { useMutation } from "@tanstack/react-query";
-import { useNavigate } from "react-router-dom";
+import { useMutation, useQuery } from "@tanstack/react-query";
+import { useNavigate, useParams } from "react-router-dom";
 import toast from "react-hot-toast";
 import axiosClient from "@/util/axios";
 
-const PostData = () => {
+const Edit = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+
   const [isLoading, setIsLoading] = useState(false);
   const [showError, setShowError] = useState(null);
-  const navigate = useNavigate();
 
   const schema = yup.object().shape({
     name: yup.string().required(),
@@ -23,17 +31,32 @@ const PostData = () => {
     register,
     handleSubmit,
     formState: { errors },
+    setValue,
   } = useForm({
     resolver: yupResolver(schema),
   });
 
+  const { data: exampleData } = useQuery({
+    queryKey: ["example", id],
+    queryFn: async () => {
+      const response = await axiosClient.get(`/example/${id}`);
+      return response.data;
+    },
+  });
+
+  useEffect(() => {
+    if (exampleData) {
+      setValue("name", exampleData.data.name);
+    }
+  }, [exampleData, setValue]);
+
   const { mutateAsync } = useMutation({
     mutationFn: (data) => {
-      return axiosClient.post("/add/", data);
+      return axiosClient.put(`/example/${id}`, data);
     },
     onSuccess: (data) => {
       navigate("/");
-      toast.success("Data Added Success!");
+      toast.success("Data Updated Successfully!");
     },
     onError: (error) => {
       setShowError(error.response.data.error);
@@ -52,7 +75,7 @@ const PostData = () => {
         <div className="p-4 sm:p-7">
           <div className="text-center">
             <h1 className="block text-2xl font-bold text-gray-900 dark:text-white">
-              Add Data
+              Update Data
             </h1>
           </div>
           <div className="mt-5">
@@ -103,5 +126,5 @@ const PostData = () => {
   );
 };
 
-export default PostData;
+export default Edit;
 ```
