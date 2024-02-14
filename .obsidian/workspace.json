@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9b63eb0d76796d09",
+        "id": "bb31b45244090696",
         "type": "tabs",
         "children": [
           {
-            "id": "a03955a60879299b",
+            "id": "90a40c226d43bc87",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Coding/React-VITE/15 Hide Scroll Bar.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Coding/React-VITE/15 Hide Scroll Bar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Coding/React-VITE/15 Hide Scroll Bar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Coding/React-VITE/15 Hide Scroll Bar.md"
+              }
             }
           }
         ]
@@ -138,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a03955a60879299b",
+  "active": "90a40c226d43bc87",
   "lastOpenFiles": [
     "Coding/React-VITE/15 Hide Scroll Bar.md",
     "Coding/React-VITE/4 Dark Mode.md",

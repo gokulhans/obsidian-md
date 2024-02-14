@@ -1,3 +1,4 @@
+Create src/App.css file
 
 ```jsx
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -10,4 +11,10 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+```
+
+Import in App.jsx
+
+```jsx
+import "./App.css";
 ```
