@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5c189b111c1e6a69",
+        "id": "9b63eb0d76796d09",
         "type": "tabs",
         "children": [
           {
-            "id": "90a3d0a5ca27bf3e",
+            "id": "a03955a60879299b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/React-VITE/4 Dark Mode.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/4 Dark Mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/4 Dark Mode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Coding/React-VITE/4 Dark Mode.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90a3d0a5ca27bf3e",
+  "active": "a03955a60879299b",
   "lastOpenFiles": [
+    "Coding/React-VITE/15 Hide Scroll Bar.md",
+    "Coding/React-VITE/4 Dark Mode.md",
     "Coding/React-VITE/3 Logout Button.md",
     "Coding/React-VITE/2 NavBar.md",
     "Coding/React-VITE/1 Get Started.md",
@@ -167,7 +161,6 @@
     "Coding/React-VITE/6 SignUp, Register.md",
     "Startup/Business App.md",
     "Coding/React-VITE/5 Footer.md",
-    "Coding/React-VITE/4 Dark Mode.md",
     "Coding/Express-Node",
     "Coding/ChatGPT/Promts/React VITE Get Started.md",
     "Coding/React-VITE",
@@ -177,7 +170,6 @@
     "Coding/ChatGPT",
     "Goals/January is Everything.md",
     "Goals/Short Term.md",
-    "Goals/Long Term.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
