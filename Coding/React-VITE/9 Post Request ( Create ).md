@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import axiosClient from "@/util/axios";
 
-const PostData = () => {
+const Create = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [showError, setShowError] = useState(null);
   const navigate = useNavigate();
@@ -33,13 +33,21 @@ const PostData = () => {
     resolver: yupResolver(schema),
   });
 
+  const postExample = async (data) => {
+    const token = localStorage.getItem("token"); // Retrieve the JWT token from localStorage
+    const headers = {
+      Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+    };
+    return axiosClient.post("/example/", data, { headers });
+  };
+
   const { mutateAsync } = useMutation({
     mutationFn: (data) => {
-      return axiosClient.post("/add/", data);
+      postExample(data);
     },
     onSuccess: (data) => {
       navigate("/");
-      toast.success("Data Added Success!");
+      toast.success("Data Added Successfully!");
     },
     onError: (error) => {
       setShowError(error.response.data.error);
@@ -109,5 +117,6 @@ const PostData = () => {
   );
 };
 
-export default PostData;
+export default Create;
+
 ```
