@@ -120,3 +120,44 @@ const Create = () => {
 export default Create;
 
 ```
+
+#### ChatGPT Prompts
+
+Create Form
+
+```
+{/* Form Group */}
+<div>
+<label
+  htmlFor="name"
+  className="block text-sm mb-2 dark:text-white"
+>
+  Name
+</label>
+<div className="relative">
+  <input
+    type="text"
+    id="name"
+    name="name"
+    className="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400"
+    {...register("name")}
+  />
+</div>
+<p className="text-xs text-red-600 dark:text-red-500 mt-2">
+  {errors.name?.message}
+</p>
+</div>
+{/* End Form Group */}
+
+generate textarea for Code Block and input for link
+```
+
+Create Yup Object
+
+```
+const schema = yup.object().shape({
+    name: yup.string().required(),
+  });
+  
+rewrite as per my fields
+```

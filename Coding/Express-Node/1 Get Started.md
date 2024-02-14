@@ -14,7 +14,6 @@ Create folder Backend.
 
 Check the boxes once each feature is implemented and tested successfully. Happy coding!
 ```
-
 #### Create LICENSE.
 
 ```
