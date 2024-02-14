@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "29d14bad85dbc2e9",
+        "id": "c53ef626c5b7343a",
         "type": "tabs",
         "children": [
           {
-            "id": "e87f7b7d26623406",
+            "id": "499ca343080f6380",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/React-VITE/11 Get All ( Read All ).md",
+                "file": "Coding/React-VITE/14 Shimmer Example.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/11 Get All ( Read All ).md",
+                "file": "Coding/React-VITE/14 Shimmer Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/11 Get All ( Read All ).md",
+                "file": "Coding/React-VITE/14 Shimmer Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/React-VITE/11 Get All ( Read All ).md"
+                "file": "Coding/React-VITE/14 Shimmer Example.md"
               }
             }
           }
@@ -146,13 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e87f7b7d26623406",
+  "active": "499ca343080f6380",
   "lastOpenFiles": [
-    "Coding/React-VITE/10 Put Request ( Edit ).md",
+    "Coding/React-VITE/14 Shimmer Example.md",
+    "Coding/React-VITE/2 NavBar.md",
     "Coding/React-VITE/13 DeleteById.md",
     "Coding/React-VITE/12 GetById ( ReadById ).md",
-    "Coding/React-VITE/9 Post Request ( Create ).md",
     "Coding/React-VITE/11 Get All ( Read All ).md",
+    "Coding/React-VITE/10 Put Request ( Edit ).md",
+    "Coding/React-VITE/9 Post Request ( Create ).md",
     "Coding/React-VITE/7 SignIn , Login.md",
     "Coding/React-VITE/8 Firebase.md",
     "Coding/Express-Node/4 CRUD Requests.md",
@@ -166,7 +168,6 @@
     "Coding/React-VITE/5 Footer.md",
     "Coding/React-VITE/4 Dark Mode.md",
     "Coding/React-VITE/3 Logout Button.md",
-    "Coding/React-VITE/2 NavBar.md",
     "Coding/Express-Node",
     "Coding/ChatGPT/Promts/React VITE Get Started.md",
     "Coding/React-VITE",
@@ -177,7 +178,6 @@
     "Goals/January is Everything.md",
     "Goals/Short Term.md",
     "Goals/Long Term.md",
-    "README.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
