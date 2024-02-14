@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/React-VITE/13 DeleteById.md",
+                "file": "Coding/React-VITE/11 Get All ( Read All ).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/13 DeleteById.md",
+                "file": "Coding/React-VITE/11 Get All ( Read All ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/13 DeleteById.md",
+                "file": "Coding/React-VITE/11 Get All ( Read All ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/React-VITE/13 DeleteById.md"
+                "file": "Coding/React-VITE/11 Get All ( Read All ).md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "e87f7b7d26623406",
   "lastOpenFiles": [
-    "Coding/React-VITE/12 GetById ( ReadById ).md",
-    "Coding/React-VITE/13 DeleteById.md",
-    "Coding/React-VITE/9 Post Request ( Create ).md",
     "Coding/React-VITE/10 Put Request ( Edit ).md",
+    "Coding/React-VITE/13 DeleteById.md",
+    "Coding/React-VITE/12 GetById ( ReadById ).md",
+    "Coding/React-VITE/9 Post Request ( Create ).md",
     "Coding/React-VITE/11 Get All ( Read All ).md",
     "Coding/React-VITE/7 SignIn , Login.md",
     "Coding/React-VITE/8 Firebase.md",
