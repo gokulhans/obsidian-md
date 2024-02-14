@@ -11,7 +11,7 @@ import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useNavigate, useParams } from "react-router-dom";
 import toast from "react-hot-toast";
 import axiosClient from "@/util/axios";
@@ -19,6 +19,7 @@ import axiosClient from "@/util/axios";
 const Edit = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
 
   const [isLoading, setIsLoading] = useState(false);
   const [showError, setShowError] = useState(null);
@@ -36,12 +37,26 @@ const Edit = () => {
     resolver: yupResolver(schema),
   });
 
+  const fetchExample = async () => {
+    const token = localStorage.getItem("token"); // Retrieve the JWT token from localStorage
+    const headers = {
+      Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+    };
+    const response = await axiosClient.get(`/example/${id}`, { headers });
+    return response.data;
+  };
+
+  const postExample = async (data) => {
+    const token = localStorage.getItem("token"); // Retrieve the JWT token from localStorage
+    const headers = {
+      Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+    };
+    return axiosClient.put(`/example/${id}`, data, { headers });
+  };
+
   const { data: exampleData } = useQuery({
     queryKey: ["example", id],
-    queryFn: async () => {
-      const response = await axiosClient.get(`/example/${id}`);
-      return response.data;
-    },
+    queryFn: fetchExample,
   });
 
   useEffect(() => {
@@ -52,11 +67,12 @@ const Edit = () => {
 
   const { mutateAsync } = useMutation({
     mutationFn: (data) => {
-      return axiosClient.put(`/example/${id}`, data);
+      postExample(data);
     },
     onSuccess: (data) => {
       navigate("/");
       toast.success("Data Updated Successfully!");
+      queryClient.refetchQueries(["example", id]); // Refetch the query after successful update
     },
     onError: (error) => {
       setShowError(error.response.data.error);
