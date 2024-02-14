@@ -87,7 +87,7 @@ pages = Home/Home.jsx
 #### Install Essential Libraries for development.
 
 ```
-npm i react-hot-toast react-query @hookform/resolvers @tanstack/react-query axios react-hook-form react-router-dom yup
+npm i react-hot-toast @hookform/resolvers @tanstack/react-query axios react-hook-form react-router-dom yup
 ```
 
 #### Install ShadCN
@@ -214,7 +214,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
 
@@ -236,6 +236,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 import { useState } from "react";
 import { Toaster } from "react-hot-toast";
 import { Navigate, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 function App() {
   const [isUser, setIsUser] = useState(localStorage.getItem("isUser"));
@@ -250,19 +251,12 @@ function App() {
             {!isUser ? (
               <>
                 <Route path="/" element={<Navigate to={"/signup"} />} />
-                <Route
-                  path="/signin"
-                  element={<SignIn setIsUser={setIsUser} />}
-                />
-                <Route
-                  path="/signup"
-                  element={<SignUp setIsUser={setIsUser} />}
-                />
+                <Route path="*" element={<Navigate to={"/"} />} />
               </>
             ) : (
               <>
                 <Route exact path="/" element={<Home isUser={isUser} />} />
-                <Route path="*" element={<ErrorPage isUser={isUser} />} />
+                <Route path="*" element={<Navigate to={"/"} />} />
               </>
             )}
           </Routes>
