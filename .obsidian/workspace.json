@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bb31b45244090696",
+        "id": "d3119aed4a42f8f5",
         "type": "tabs",
         "children": [
           {
-            "id": "90a40c226d43bc87",
+            "id": "f126c916000a9d08",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/React-VITE/14 Shimmer Example.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/14 Shimmer Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/14 Shimmer Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Coding/React-VITE/14 Shimmer Example.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90a40c226d43bc87",
+  "active": "f126c916000a9d08",
   "lastOpenFiles": [
+    "Coding/React-VITE/14 Shimmer Example.md",
     "Coding/React-VITE/12 GetById ( ReadById ).md",
     "Coding/React-VITE/4 Dark Mode.md",
     "Coding/React-VITE/11 Get All ( Read All ).md",
@@ -157,7 +150,6 @@
     "Coding/React-VITE/3 Logout Button.md",
     "Coding/React-VITE/2 NavBar.md",
     "Coding/React-VITE/1 Get Started.md",
-    "Coding/React-VITE/14 Shimmer Example.md",
     "Coding/React-VITE/13 DeleteById.md",
     "Coding/React-VITE/10 Put Request ( Edit ).md",
     "Coding/React-VITE/7 SignIn , Login.md",
