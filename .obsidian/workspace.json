@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/React-VITE/5 Footer.md",
+                "file": "Coding/React-VITE/16 Admin Navbar.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/5 Footer.md",
+                "file": "Coding/React-VITE/16 Admin Navbar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/5 Footer.md",
+                "file": "Coding/React-VITE/16 Admin Navbar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/React-VITE/5 Footer.md"
+                "file": "Coding/React-VITE/16 Admin Navbar.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "650ffe070017bcb5",
   "lastOpenFiles": [
+    "Coding/React-VITE/18 Table Border Color ShadCN.md",
+    "Coding/React-VITE/17 Admin Login.md",
+    "Coding/React-VITE/16 Admin Navbar.md",
+    "Coding/React-VITE/5 Footer.md",
     "Coding/React-VITE/4 Dark Mode.md",
     "Coding/React-VITE/3 Logout Button.md",
     "Coding/React-VITE/2 NavBar.md",
@@ -168,16 +172,12 @@
     "Coding/Express-Node/3 Middlewares.md",
     "Coding/React-VITE/6 SignUp, Register.md",
     "Startup/Business App.md",
-    "Coding/React-VITE/5 Footer.md",
     "Coding/Express-Node",
     "Coding/ChatGPT/Promts/React VITE Get Started.md",
     "Coding/React-VITE",
     "Ideas/Application Ideas.md",
-    "Coding/ChatGPT/Untitled.md",
     "Coding/ChatGPT/Promts",
     "Coding/ChatGPT",
-    "Goals/January is Everything.md",
-    "Goals/Short Term.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
