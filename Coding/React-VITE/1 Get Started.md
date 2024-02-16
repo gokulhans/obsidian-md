@@ -237,6 +237,8 @@ import { useState } from "react";
 import { Toaster } from "react-hot-toast";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [isUser, setIsUser] = useState(localStorage.getItem("isUser"));
