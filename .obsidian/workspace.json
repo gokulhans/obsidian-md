@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/React-VITE/9 Post Request ( Create ).md",
-                "mode": "source",
+                "file": "Coding/Express-Node/2 Authentication.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/9 Post Request ( Create ).md",
+                "file": "Coding/Express-Node/2 Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/9 Post Request ( Create ).md",
+                "file": "Coding/Express-Node/2 Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/React-VITE/9 Post Request ( Create ).md"
+                "file": "Coding/Express-Node/2 Authentication.md"
               }
             }
           }
@@ -148,8 +148,15 @@
   },
   "active": "f30f9e96bb7e50cb",
   "lastOpenFiles": [
+    "Coding/Express-Node/3 Middlewares.md",
     "Coding/Express-Node/4 CRUD Requests.md",
-    "Coding/Express-Node/5 Get Data.md",
+    "Coding/React-VITE/7 SignIn , Login.md",
+    "Coding/React-VITE/6 SignUp, Register.md",
+    "Coding/Express-Node/2 Authentication.md",
+    "Coding/Express-Node/7 Controllers Prompt.md",
+    "Coding/Express-Node/5 Model Prompt.md",
+    "Coding/Express-Node/6 Routes Prompt.md",
+    "Coding/Express-Node/1 Get Started.md",
     "Coding/React-VITE/9 Post Request ( Create ).md",
     "Coding/React-VITE/18 Admin Home.md",
     "Coding/React-VITE/17 Admin Login.md",
@@ -160,21 +167,14 @@
     "Coding/React-VITE/4 Dark Mode.md",
     "Coding/React-VITE/2 NavBar.md",
     "Coding/React-VITE/1 Get Started.md",
-    "Coding/Express-Node/1 Get Started.md",
     "Coding/React-VITE/14 Shimmer Example.md",
     "Coding/React-VITE/12 GetById ( ReadById ).md",
     "Coding/React-VITE/11 Get All ( Read All ).md",
     "Coding/React-VITE/15 Hide Scroll Bar.md",
     "Coding/React-VITE/13 DeleteById.md",
     "Coding/React-VITE/10 Put Request ( Edit ).md",
-    "Coding/React-VITE/7 SignIn , Login.md",
     "Coding/React-VITE/8 Firebase.md",
-    "Coding/Express-Node/2 Authentication.md",
-    "Coding/Express-Node/3 Middlewares.md",
-    "Coding/React-VITE/6 SignUp, Register.md",
-    "Startup/Business App.md",
     "Coding/Express-Node",
-    "Coding/ChatGPT/Promts/React VITE Get Started.md",
     "Coding/React-VITE",
     "Coding/ChatGPT/Promts",
     "Coding/ChatGPT",
