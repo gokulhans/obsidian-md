@@ -68,7 +68,7 @@ npm init -y
 npm i express bcrypt cors jsonwebtoken dotenv mongoose nodemon
 ```
 
-#### Create app.js 
+	#### Create app.js 
 
 ```js
 const express = require("express");
