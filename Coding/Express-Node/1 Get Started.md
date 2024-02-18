@@ -96,7 +96,7 @@ app.listen(process.env.PORT || 5000, () =>
 
 #### Create folders
 
-```
+```folders
 routes
 controllers
 models
