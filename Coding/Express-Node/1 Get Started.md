@@ -321,7 +321,7 @@ async function run() {
 ```env
 MONGODB_URI=mongodb+srv://test:testdb.joiejrf.mongodb.net/?retryWrites=true&w=majority
 JWT_SECRET_KEY=my-jwt-token
-PORT=5000
+	PORT=5000
 ```
 
 #### Edit Package.json
