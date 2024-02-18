@@ -144,3 +144,149 @@ const Edit = () => {
 
 export default Edit;
 ```
+
+
+Chat GPT
+
+```
+create an edit product page
+
+<<< PASTE ADD PRODUCT >>>
+
+SYNTAX
+
+import React, { useState, useEffect } from "react";
+import { useForm } from "react-hook-form";
+import * as yup from "yup";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { useNavigate, useParams } from "react-router-dom";
+import toast from "react-hot-toast";
+import axiosClient from "@/util/axios";
+import { Button } from "@/components/ui/button";
+
+const EditCategory = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const queryClient = useQueryClient();
+
+  const [isLoading, setIsLoading] = useState(false);
+  const [showError, setShowError] = useState(null);
+
+  const schema = yup.object().shape({
+    categoryname: yup.string().required(),
+  });
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    setValue,
+  } = useForm({
+    resolver: yupResolver(schema),
+  });
+
+  const fetchCategory = async () => {
+    const token = localStorage.getItem("token"); // Retrieve the JWT token from localStorage
+    const headers = {
+      Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+    };
+    const response = await axiosClient.get(`/category/${id}`, { headers });
+    return response.data;
+  };
+
+  const updateCategory = async (data) => {
+    const token = localStorage.getItem("token"); // Retrieve the JWT token from localStorage
+    const headers = {
+      Authorization: `Bearer ${token}`, // Include the token in the Authorization header
+    };
+    return axiosClient.put(`/category/${id}`, data, { headers });
+  };
+
+  const { data: categoryData } = useQuery({
+    queryKey: ["category", id],
+    queryFn: fetchCategory,
+  });
+
+  useEffect(() => {
+    if (categoryData) {
+      setValue("categoryname", categoryData.data.categoryname);
+    }
+  }, [categoryData, setValue]);
+
+  const { mutateAsync } = useMutation({
+    mutationFn: (data) => {
+      updateCategory(data);
+    },
+    onSuccess: (data) => {
+      navigate("/");
+      toast.success("Category Updated Successfully!");
+      queryClient.refetchQueries(["category", id]); // Refetch the query after successful update
+    },
+    onError: (error) => {
+      setShowError(error.response.data.error);
+      setIsLoading(false);
+    },
+  });
+
+  const onSubmit = (data) => {
+    setIsLoading(true);
+    mutateAsync(data);
+  };
+
+  return (
+    <main className="w-full max-w-md mx-auto p-6">
+      <div className="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-900 dark:border-gray-700">
+        <div className="p-4 sm:p-7">
+          <div className="text-center">
+            <h1 className="block text-2xl font-bold text-gray-900 dark:text-white">
+              Edit Category
+            </h1>
+          </div>
+          <div className="mt-5">
+            {/* Form */}
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <div className="grid gap-y-4">
+                {/* Form Group */}
+                <div>
+                  <label
+                    htmlFor="categoryname"
+                    className="block text-sm mb-2 dark:text-white"
+                  >
+                    Category Name
+                  </label>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      id="categoryname"
+                      name="categoryname"
+                      className="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400"
+                      {...register("categoryname")}
+                    />
+                  </div>
+                  <p className="text-xs text-red-600 dark:text-red-500 mt-2">
+                    {errors.categoryname?.message}
+                  </p>
+                </div>
+                {/* End Form Group */}
+
+                <Button type="submit" disabled={isLoading}>
+                  {isLoading ? "Loading.." : "Submit"}
+                </Button>
+                {showError && (
+                  <p className="text-xs text-red-600 dark:text-red-500 mt-2">
+                    {showError}
+                  </p>
+                )}
+              </div>
+            </form>
+            {/* End Form */}
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+};
+
+export default EditCategory;
+```
