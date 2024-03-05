@@ -11,8 +11,12 @@
             "id": "e5e834ec5d7299e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Coding/React-VITE/1 Get Started.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Coding/React-VITE/1 Get Started.md"
+              }
             }
           }
         ]
@@ -140,14 +148,15 @@
   },
   "active": "e5e834ec5d7299e4",
   "lastOpenFiles": [
+    "Coding/React-VITE/2 NavBar.md",
+    "Coding/Express-Node/1 Get Started.md",
+    "Coding/Express-Node/2 Authentication.md",
+    "Coding/Express-Node/3 Middlewares.md",
     "Coding/React-VITE/20 Mark Down.md",
     "Coding/React-VITE/1 Get Started.md",
-    "Coding/Express-Node/1 Get Started.md",
     "Coding/React-VITE/10 Put Request ( Edit ).md",
     "Coding/React-VITE/9 Post Request ( Create ).md",
     "Coding/Express-Node/7 Controllers Prompt.md",
-    "Coding/Express-Node/2 Authentication.md",
-    "Coding/Express-Node/3 Middlewares.md",
     "Coding/Express-Node/4 CRUD Requests.md",
     "Coding/Express-Node/5 Model Prompt.md",
     "Coding/Express-Node/6 Routes Prompt.md",
@@ -161,7 +170,6 @@
     "Coding/React-VITE/19 Table Border Color ShadCN.md",
     "Coding/React-VITE/5 Footer.md",
     "Coding/React-VITE/4 Dark Mode.md",
-    "Coding/React-VITE/2 NavBar.md",
     "Coding/React-VITE/14 Shimmer Example.md",
     "Coding/React-VITE/12 GetById ( ReadById ).md",
     "Coding/React-VITE/15 Hide Scroll Bar.md",
