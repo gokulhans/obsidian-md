@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Express-Node/1 Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Express-Node/1 Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Express-Node/1 Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Express-Node/1 Get Started.md"
+                "file": "Coding/React-VITE/1 Get Started.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "e5e834ec5d7299e4",
   "lastOpenFiles": [
+    "Coding/Express-Node/1 Get Started.md",
     "Coding/React-VITE/1 Get Started.md",
     "Coding/React-VITE/2 NavBar.md",
-    "Coding/Express-Node/1 Get Started.md",
     "Coding/Express-Node/2 Authentication.md",
     "Coding/Express-Node/3 Middlewares.md",
     "Coding/React-VITE/20 Mark Down.md",
