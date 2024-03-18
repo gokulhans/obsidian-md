@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "552838b0c43bd602",
+        "id": "e40b372ed95aa0fa",
         "type": "tabs",
         "children": [
           {
-            "id": "e5e834ec5d7299e4",
+            "id": "ab0758a897b638c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mongoose.co",
+                "query": "vercel.json",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,13 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5e834ec5d7299e4",
+  "active": "ab0758a897b638c7",
   "lastOpenFiles": [
-    "Coding/Next Js/project/MongoDB Connection.md",
+    "Coding/React-VITE/1 Get Started.md",
     "Coding/Express-Node/1 Get Started.md",
+    "Coding/Next Js/project/MongoDB Connection.md",
     "Coding/React-VITE/8 Firebase.md",
     "Coding/React-VITE/6 SignUp, Register.md",
-    "Coding/React-VITE/1 Get Started.md",
     "Coding/React-VITE/10 Put Request ( Edit ).md",
     "Coding/React-VITE/12 GetById ( ReadById ).md",
     "Coding/React-VITE/2 NavBar.md",
