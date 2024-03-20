@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9e947a544e191eaf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c41952f875f6ad43",
+  "active": "9e947a544e191eaf",
   "lastOpenFiles": [
     "Coding/Express-Node/1 Get Started.md",
     "Coding/React-VITE/1 Get Started.md",
