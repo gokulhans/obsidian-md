@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/React-VITE/8 Firebase.md",
+                "file": "Coding/Express-Node/7 Controllers Prompt.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "firebase",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/8 Firebase.md",
+                "file": "Coding/Express-Node/7 Controllers Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/8 Firebase.md",
+                "file": "Coding/Express-Node/7 Controllers Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/React-VITE/8 Firebase.md"
+                "file": "Coding/Express-Node/7 Controllers Prompt.md"
               }
             }
           }
@@ -162,10 +161,12 @@
   },
   "active": "9e947a544e191eaf",
   "lastOpenFiles": [
+    "Coding/Express-Node/5 Model Prompt.md",
+    "Coding/Express-Node/7 Controllers Prompt.md",
     "Coding/Express-Node/1 Get Started.md",
+    "Coding/React-VITE/8 Firebase.md",
     "Coding/React-VITE/1 Get Started.md",
     "Coding/Next Js/project/MongoDB Connection.md",
-    "Coding/React-VITE/8 Firebase.md",
     "Coding/React-VITE/6 SignUp, Register.md",
     "Coding/React-VITE/10 Put Request ( Edit ).md",
     "Coding/React-VITE/12 GetById ( ReadById ).md",
@@ -174,9 +175,7 @@
     "Coding/Express-Node/3 Middlewares.md",
     "Coding/React-VITE/20 Mark Down.md",
     "Coding/React-VITE/9 Post Request ( Create ).md",
-    "Coding/Express-Node/7 Controllers Prompt.md",
     "Coding/Express-Node/4 CRUD Requests.md",
-    "Coding/Express-Node/5 Model Prompt.md",
     "Coding/Express-Node/6 Routes Prompt.md",
     "Coding/React-VITE/11 Get All ( Read All ).md",
     "Coding/React-VITE/7 SignIn , Login.md",
