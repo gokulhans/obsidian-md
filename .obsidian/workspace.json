@@ -23,9 +23,11 @@
             "id": "9e947a544e191eaf",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.11"
+                "file": "Coding/React-VITE/8 Firebase.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -59,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "get",
+                "query": "firebase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/1 Get Started.md",
+                "file": "Coding/React-VITE/8 Firebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/1 Get Started.md",
+                "file": "Coding/React-VITE/8 Firebase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/React-VITE/1 Get Started.md"
+                "file": "Coding/React-VITE/8 Firebase.md"
               }
             }
           }
