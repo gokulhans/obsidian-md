@@ -274,7 +274,7 @@ export default App;
 #### First API Call
 
 ```js
-import axiosClient from "@/util/axios";
+import axiosClient from "@/utils/axios";
 import React, { useState, useEffect } from "react";
 
 function Home() {
