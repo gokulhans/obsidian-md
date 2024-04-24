@@ -9,7 +9,7 @@ Create routes/authRoutes.js
 const express = require("express");
 const router = express.Router();
 
-const authController = require('../controllers/authController');
+const authController = require('../controllers/authControllers');
 
 // User Signup and Signin
 router.post("/signup", authController.signUp);
@@ -23,7 +23,7 @@ router.post("/admin/signin", authController.signInAdmin);
 module.exports = router;
 ```
 
-Create controllers/authController.js
+Create controllers/authControllers.js
 
 ```js
 const User = require('../models/user');
