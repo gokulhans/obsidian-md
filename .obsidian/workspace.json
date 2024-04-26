@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e9bac2d0c35ec4a6",
+        "id": "b215c75b0cd9e400",
         "type": "tabs",
         "children": [
           {
-            "id": "9427ddfa809c9d31",
+            "id": "e2d7f269c4f2cf1b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Coding/React-VITE/9 Post Request ( Create ).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Coding/React-VITE/9 Post Request ( Create ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Coding/React-VITE/9 Post Request ( Create ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Coding/React-VITE/9 Post Request ( Create ).md"
+              }
             }
           }
         ]
@@ -138,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9427ddfa809c9d31",
+  "active": "e2d7f269c4f2cf1b",
   "lastOpenFiles": [
+    "Coding/React-VITE/18 Admin Home.md",
     "Coding/React-VITE/15 Hide Scroll Bar.md",
     "Coding/React-VITE/20 Mark Down.md",
     "Coding/React-VITE/19 Table Border Color ShadCN.md",
-    "Coding/React-VITE/18 Admin Home.md",
     "Coding/React-VITE/16 Admin Navbar.md",
     "Coding/React-VITE/17 Admin Login.md",
     "Coding/React-VITE/8 Firebase.md",
