@@ -11,8 +11,12 @@
             "id": "de22b2acc3e09b77",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Goals/MyDay.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Goals/MyDay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Goals/MyDay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Goals/MyDay.md"
+              }
             }
           }
         ]
@@ -141,6 +149,7 @@
   "active": "de22b2acc3e09b77",
   "lastOpenFiles": [
     "Goals/3 Month Plan.md",
+    "Goals/MyDay.md",
     "Coding/PHP/Get Started.md",
     "Coding/PHP",
     "Ideas/Application Ideas.md",
@@ -166,7 +175,6 @@
     "Coding/React-VITE/20 Mark Down.md",
     "Coding/React-VITE/19 Table Border Color ShadCN.md",
     "Coding/React-VITE/16 Admin Navbar.md",
-    "Coding/React-VITE/17 Admin Login.md",
     "Coding/Flutter",
     "Coding/Express-Node",
     "Coding/React-VITE",
