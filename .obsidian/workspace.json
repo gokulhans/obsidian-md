@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "da809e6626be561f",
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7cda901af6bc73ce",
+  "active": "e0040185977a9645",
   "lastOpenFiles": [
     "Goals/MyDay.md",
     "Goals/3 Month Plan.md",
