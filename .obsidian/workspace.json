@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0ac4a700b016ebd0",
+        "id": "d03b2d1ba7f20ab9",
         "type": "tabs",
         "children": [
           {
-            "id": "7cda901af6bc73ce",
+            "id": "9032cc9d4183e3c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/PHP/Get Started.md",
+                "file": "Coding/Flutter/Get Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "da809e6626be561f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/PHP/Get Started.md",
+                "file": "Coding/Flutter/Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/PHP/Get Started.md",
+                "file": "Coding/Flutter/Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/PHP/Get Started.md"
+                "file": "Coding/Flutter/Get Started.md"
               }
             }
           }
@@ -147,11 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0040185977a9645",
+  "active": "9032cc9d4183e3c7",
   "lastOpenFiles": [
+    "Coding/PHP/Get Started.md",
     "Goals/MyDay.md",
     "Goals/3 Month Plan.md",
-    "Coding/PHP/Get Started.md",
     "Coding/PHP",
     "Ideas/Application Ideas.md",
     "Ideas/Electrical Devices.md",
