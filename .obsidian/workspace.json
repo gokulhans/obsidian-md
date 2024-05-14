@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/React-VITE/1 Get Started.md",
+                "file": "Coding/React-VITE/6 SignUp, Register.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/1 Get Started.md",
+                "file": "Coding/React-VITE/6 SignUp, Register.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/1 Get Started.md",
+                "file": "Coding/React-VITE/6 SignUp, Register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/React-VITE/1 Get Started.md"
+                "file": "Coding/React-VITE/6 SignUp, Register.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "9032cc9d4183e3c7",
   "lastOpenFiles": [
+    "Coding/React-VITE/1 Get Started.md",
     "Coding/React-VITE/3 Logout Button.md",
     "Coding/React-VITE/8 Firebase.md",
-    "Coding/React-VITE/1 Get Started.md",
     "Coding/React-VITE/5 Footer.md",
     "Coding/React-VITE/2 NavBar.md",
     "Coding/Flutter/Get Started.md",
