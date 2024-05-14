@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d03b2d1ba7f20ab9",
+        "id": "1a5e4388834832fc",
         "type": "tabs",
         "children": [
           {
-            "id": "9032cc9d4183e3c7",
+            "id": "f9fedb744b69f3ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,9 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9032cc9d4183e3c7",
+  "active": "f9fedb744b69f3ea",
   "lastOpenFiles": [
     "Coding/React-VITE/1 Get Started.md",
+    "Coding/React-VITE/7 SignIn , Login.md",
+    "Coding/React-VITE/6 SignUp, Register.md",
     "Coding/React-VITE/3 Logout Button.md",
     "Coding/React-VITE/8 Firebase.md",
     "Coding/React-VITE/5 Footer.md",
@@ -173,8 +175,6 @@
     "Coding/Express-Node/6 Routes Prompt.md",
     "Coding/React-VITE/9 Post Request ( Create ).md",
     "Coding/React-VITE/18 Admin Home.md",
-    "Coding/React-VITE/15 Hide Scroll Bar.md",
-    "Coding/React-VITE/20 Mark Down.md",
     "Coding/Flutter",
     "Coding/Express-Node",
     "Coding/React-VITE",
