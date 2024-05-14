@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Flutter/Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Flutter/Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Flutter/Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Flutter/Get Started.md"
+                "file": "Coding/React-VITE/1 Get Started.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "9032cc9d4183e3c7",
   "lastOpenFiles": [
+    "Coding/Flutter/Get Started.md",
     "Coding/PHP/Get Started.md",
     "Goals/MyDay.md",
     "Goals/3 Month Plan.md",
@@ -158,7 +159,6 @@
     "README.md",
     "Coding/Express-Node/1 Get Started.md",
     "Goals/January is Everything.md",
-    "Coding/Flutter/Get Started.md",
     "Goals/Long Term.md",
     "Goals/Short Term.md",
     "Coding/React-VITE/2 NavBar.md",
