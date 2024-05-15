@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "74b186f227970b5d",
+        "id": "1203bc40e3a11b71",
         "type": "tabs",
         "children": [
           {
-            "id": "d51819a408cd01dc",
+            "id": "20cdba7e64e77e35",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Coding/Express-Node/1 Get Started.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Coding/Express-Node/1 Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Coding/Express-Node/1 Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Coding/Express-Node/1 Get Started.md"
+              }
             }
           }
         ]
@@ -138,16 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d51819a408cd01dc",
+  "active": "20cdba7e64e77e35",
   "lastOpenFiles": [
-    "Coding/Express-Node/1 Get Started.md",
-    "Coding/React-VITE/1 Get Started.md",
+    "Coding/Express-Node/2 Authentication.md",
+    "Coding/Express-Node/3 Middlewares.md",
     "Coding/React-VITE/7 SignIn , Login.md",
     "Coding/React-VITE/6 SignUp, Register.md",
+    "Coding/React-VITE/1 Get Started.md",
+    "Coding/React-VITE/2 NavBar.md",
     "Coding/React-VITE/8 Firebase.md",
+    "Coding/Express-Node/1 Get Started.md",
     "Coding/React-VITE/3 Logout Button.md",
     "Coding/React-VITE/5 Footer.md",
-    "Coding/React-VITE/2 NavBar.md",
     "Coding/Flutter/Get Started.md",
     "Coding/PHP/Get Started.md",
     "Goals/MyDay.md",
@@ -161,12 +171,10 @@
     "Goals/Long Term.md",
     "Goals/Short Term.md",
     "Coding/Express-Node/5 Model Prompt.md",
-    "Coding/Express-Node/3 Middlewares.md",
     "Coding/Express-Node/7 Controllers Prompt.md",
     "Coding/Express-Node/4 CRUD Requests.md",
     "Coding/Express-Node/6 Routes Prompt.md",
     "Coding/React-VITE/9 Post Request ( Create ).md",
-    "Coding/React-VITE/18 Admin Home.md",
     "Coding/Flutter",
     "Coding/Express-Node",
     "Coding/React-VITE",
