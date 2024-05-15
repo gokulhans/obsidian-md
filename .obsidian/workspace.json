@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1a5e4388834832fc",
+        "id": "74b186f227970b5d",
         "type": "tabs",
         "children": [
           {
-            "id": "f9fedb744b69f3ea",
+            "id": "d51819a408cd01dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/React-VITE/7 SignIn , Login.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/React-VITE/7 SignIn , Login.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/React-VITE/7 SignIn , Login.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Coding/React-VITE/7 SignIn , Login.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,12 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9fedb744b69f3ea",
+  "active": "d51819a408cd01dc",
   "lastOpenFiles": [
-    "Coding/React-VITE/6 SignUp, Register.md",
-    "Coding/React-VITE/8 Firebase.md",
+    "Coding/Express-Node/1 Get Started.md",
     "Coding/React-VITE/1 Get Started.md",
     "Coding/React-VITE/7 SignIn , Login.md",
+    "Coding/React-VITE/6 SignUp, Register.md",
+    "Coding/React-VITE/8 Firebase.md",
     "Coding/React-VITE/3 Logout Button.md",
     "Coding/React-VITE/5 Footer.md",
     "Coding/React-VITE/2 NavBar.md",
@@ -164,7 +157,6 @@
     "Ideas/Electrical Devices.md",
     "Startup/Business App.md",
     "README.md",
-    "Coding/Express-Node/1 Get Started.md",
     "Goals/January is Everything.md",
     "Goals/Long Term.md",
     "Goals/Short Term.md",
