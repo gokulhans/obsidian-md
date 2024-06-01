@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Express-Node/1 Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "verce",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Express-Node/1 Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Express-Node/1 Get Started.md",
+                "file": "Coding/React-VITE/1 Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Express-Node/1 Get Started.md"
+                "file": "Coding/React-VITE/1 Get Started.md"
               }
             }
           }
@@ -149,11 +148,11 @@
   },
   "active": "c782fbb3f21f60f3",
   "lastOpenFiles": [
+    "Coding/Express-Node/1 Get Started.md",
     "Coding/React-VITE/1 Get Started.md",
     "Coding/Express-Node/4 CRUD Requests.md",
     "Coding/React-VITE/18 Admin Home.md",
     "Coding/React-VITE/19 Table Border Color ShadCN.md",
-    "Coding/Express-Node/1 Get Started.md",
     "Coding/Express-Node/2 Authentication.md",
     "Coding/Express-Node/3 Middlewares.md",
     "Coding/React-VITE/7 SignIn , Login.md",
