@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "46836d30c97196e9",
+    "id": "dec74b3fa886ea25",
     "type": "split",
     "children": [
       {
-        "id": "a9bae4adfa1f6908",
+        "id": "2528b62a3fab9bff",
         "type": "tabs",
         "children": [
           {
-            "id": "a4a9ac30ecf8653d",
+            "id": "aedce35bf82703e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/Flutter/1 Get Started.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a3385c8de044241d",
+    "id": "1056e126a6d30163",
     "type": "split",
     "children": [
       {
-        "id": "568aed1e53906c8b",
+        "id": "fcf219de1f594bef",
         "type": "tabs",
         "children": [
           {
-            "id": "e0040185977a9645",
+            "id": "769ee979d7c0414c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "c41952f875f6ad43",
+            "id": "d4dfdf13d06e32df",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "9f7f10d196ac9e6e",
+            "id": "483a2781303f92ae",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 300
   },
   "right": {
-    "id": "da809e6626be561f",
+    "id": "9ef279d1b7fd51b9",
     "type": "split",
     "children": [
       {
-        "id": "91d7647d399fabce",
+        "id": "a5d03ea6e7812b85",
         "type": "tabs",
         "children": [
           {
-            "id": "e1e422e3ef40a0bc",
+            "id": "64d79753367b3043",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Flutter/1 Get Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "1b420ddf3dadaa00",
+            "id": "1685dce8a45897a4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Flutter/1 Get Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "21d56fb719396798",
+            "id": "c2396f4886caf780",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "0ff9f0b23e5d7eab",
+            "id": "133d196aceede7b9",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Coding/Flutter/1 Get Started.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,41 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4a9ac30ecf8653d",
-  "lastOpenFiles": [
-    "Coding/Express-Node/1 Get Started.md",
-    "Coding/React-VITE/1 Get Started.md",
-    "Coding/Express-Node/4 CRUD Requests.md",
-    "Coding/React-VITE/18 Admin Home.md",
-    "Coding/React-VITE/19 Table Border Color ShadCN.md",
-    "Coding/Express-Node/2 Authentication.md",
-    "Coding/Express-Node/3 Middlewares.md",
-    "Coding/React-VITE/7 SignIn , Login.md",
-    "Coding/React-VITE/6 SignUp, Register.md",
-    "Coding/React-VITE/2 NavBar.md",
-    "Coding/React-VITE/8 Firebase.md",
-    "Coding/React-VITE/3 Logout Button.md",
-    "Coding/React-VITE/5 Footer.md",
-    "Coding/Flutter/1 Get Started.md",
-    "Coding/PHP/Get Started.md",
-    "Goals/MyDay.md",
-    "Goals/3 Month Plan.md",
-    "Coding/PHP",
-    "Ideas/Application Ideas.md",
-    "Ideas/Electrical Devices.md",
-    "Startup/Business App.md",
-    "README.md",
-    "Goals/January is Everything.md",
-    "Goals/Long Term.md",
-    "Goals/Short Term.md",
-    "Coding/Express-Node/5 Model Prompt.md",
-    "Coding/Express-Node/7 Controllers Prompt.md",
-    "Coding/Flutter",
-    "Coding/Express-Node",
-    "Coding/React-VITE",
-    "Coding/ChatGPT/Promts",
-    "Coding/ChatGPT",
-    "Untitled.canvas",
-    "Untitled 1.canvas"
-  ]
+  "active": "769ee979d7c0414c",
+  "lastOpenFiles": []
 }
