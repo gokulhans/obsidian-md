@@ -1,8 +1,5 @@
+// Goals/Long Term.md
+// Generated based on prompt: add  a paragraph explaining project structure
 
-| # | To-Do                   | In Progress      | Completed       |
-|---|-------------------------|------------------|------------------|
-| 1 | Start Up   |                  |                  | 
-
-### Notes:
-
-- This is my Long Term Goal
+// Generated code for md file type
+// Implementation would be customized based on your prompt and file type
